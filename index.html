@@ -10,12 +10,20 @@
     <div class="x7chat">
         <div class="x7chat__header">
             <p>Envie uma mensagem</p>
-            <button>&times;</button>
+            <button class="x7header__button--close">&times;</button>
         </div>
-        <div class="x7chat__body"></div>
+        <div class="x7chat__body">
+            <form class="x7form">
+                <p>Informe seus dados para iniciar um chat</p>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Whatsapp">
+                <button>Iniciar</button>
+            </form>
+        </div>
         <div class="x7chat__footer">
             <div>
-                <input type="text" />
+                <textarea placeholder="Digite sua mensagem..."></textarea>
                 <button>Enviar</button>
             </div>
         </div>
